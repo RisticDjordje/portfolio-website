@@ -1,0 +1,15 @@
+---
+date: '2017-12-01'
+title: 'Prolog Recommendation Expert System'
+github: 'https://github.com/RisticDjordje/prolog-expert-system-with-pyswip'
+external: ''
+ios: ''
+android: ''
+tech:
+  - Python
+  - PySWIP
+company: 'Minerva University'
+showInProjects: false
+---
+
+For my Artificial Intelligence course at Minerva University I collaborated to develop an expert system for recommending restaurants in Buenos Aires using Prolog and PySwip.

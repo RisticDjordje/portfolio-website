@@ -1,6 +1,6 @@
 ---
 date: '2023-01-21'
-title: 'Co-Founder, Machine Learning & Software Engineer'
+title: 'Co-Founder'
 company: 'ResuMateX'
 location: 'San Francisco, CA'
 range: 'Jan 2023 - Present'

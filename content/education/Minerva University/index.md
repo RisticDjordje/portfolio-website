@@ -7,8 +7,8 @@ range: 'Aug 2022 - Present'
 url: 'https://www.minerva.edu/'
 ---
 
-- Living in a different tech hub every semester: San Francisco, London, Taipei, Seoul, Berlin, Buenos Aires, and Hyderabad.
-- Ranked The most innovative Global University 2 years in a row by WURI 2022 & 2023.
+- Living in a different tech hub every semester: <i>San Francisco, London, Taipei, Seoul, Berlin, Buenos Aires, and Hyderabad</i>.
+- Ranked <i>"The most innovative Global University"</i> 2 years in a row by <a href="https://www.wuri.world/wuri-ranking-2023">WURI 2022 & 2023</a> ranking.
 - One of the most selective university in the United States with an acceptance rate of less than 1%.
-- Courses taken: Data Structures and Algorithms, Machine Learning, Software Engineering, Artificial Intelligence, Statistics.
-- Teaching assistant (TA) for two introductory for 3 Computre Science classes.
+- Courses taken: <i>Data Structures and Algorithms, Machine Learning, Software Engineering, Artificial Intelligence, Statistics.</i>
+- Teaching assistant (TA) for 3 Computer Science classes.
