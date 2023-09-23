@@ -1,8 +1,7 @@
 ---
-date: '2017-11-01'
+date: '2023-01-23'
 title: 'Task Scheduler'
 github: 'https://github.com/RisticDjordje/daily-task-scheduler/blob/main/task-scheduler.ipynb'
-external: ''
 tech:
   - Python
   - Jupyter Notebook

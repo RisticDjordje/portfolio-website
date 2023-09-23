@@ -1,8 +1,6 @@
 ---
-date: '2021-03-27'
+date: '2023-12-27'
 title: 'EMedicaLab'
-github: ''
-external: ''
 tech:
   - JavaScript
   - MongoDB

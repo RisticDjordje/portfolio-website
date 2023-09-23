@@ -1,8 +1,7 @@
 ---
-date: '2017-11-01'
+date: '2023-04-20'
 title: 'AI Chess Opponent Engine'
 github: 'https://github.com/RisticDjordje/ai-chess-engine/blob/main/ai_chess_engine.ipynb'
-external: ''
 tech:
   - Python
   - Jupyter Notebook

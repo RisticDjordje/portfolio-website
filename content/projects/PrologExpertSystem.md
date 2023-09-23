@@ -1,8 +1,7 @@
 ---
-date: '2017-12-01'
+date: '2023-04-09'
 title: 'Prolog Recommendation Expert System'
 github: 'https://github.com/RisticDjordje/prolog-expert-system-with-pyswip'
-external: ''
 ios: ''
 android: ''
 tech:

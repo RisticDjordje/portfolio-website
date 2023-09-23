@@ -1,8 +1,6 @@
 ---
-date: '2021-03-27'
+date: '2018-08-27'
 title: 'FastRecipes'
-github: ''
-external: ''
 tech:
   - Python
   - Django

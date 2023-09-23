@@ -1,8 +1,7 @@
 ---
-date: '2019-06-01'
+date: '2019-06-13'
 title: 'Modelling Scale-Free Networks'
 github: 'https://github.com/RisticDjordje/modelling-scale-free-networks'
-external: ''
 tech:
   - Python
 company: 'Petnica Science Center'

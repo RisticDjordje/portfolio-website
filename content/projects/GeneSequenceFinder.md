@@ -1,8 +1,7 @@
 ---
-date: '2017-11-01'
+date: '2023-04-10'
 title: 'Genealogy tree finder using DP and Levenshtein distance'
 github: 'https://github.com/RisticDjordje/gene-sequencing-relationship-finder-using-dp-and-levenshtein-distance'
-external: ''
 tech:
   - Python
   - Jupyter Notebook

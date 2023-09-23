@@ -2,7 +2,6 @@
 date: '2022-07-10'
 title: 'NLP: Text Generation'
 github: 'https://github.com/RisticDjordje/nlp-text-generator'
-external: ''
 tech:
   - Python
   - PyTorch

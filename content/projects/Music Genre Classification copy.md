@@ -2,7 +2,6 @@
 date: '2020-07-26'
 title: 'Music Genre Classification using Deep Learning'
 github: 'https://github.com/RisticDjordje/music-genre-classification'
-external: ''
 tech:
   - Python
   - Pandas
@@ -10,7 +9,7 @@ tech:
   - Keras
   - Scikit-learn
 company: 'PFE'
-showInProjects: true
+showInProjects: false
 ---
 
 Detecting music genres using deep learning.
