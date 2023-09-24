@@ -66,7 +66,7 @@ const Hero = () => {
     <>
       <p>
         Leveraging software engineering, machine learning and entrepreneurship to solve interesting
-        problems. Currently building
+        problems. Currently building{' '}
         <a href="https://resumatex.com/" target="_blank" rel="noreferrer">
           ResuMateX
         </a>

@@ -148,13 +148,13 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello, I am a Computer Science and Business double-major at
-              <a href="https://www.minerva.edu/">Minerva University</a> interested in Sofware
+              Hello, I am a Computer Science and Business double-major at{' '}
+              <a href="https://www.minerva.edu/"> Minerva University</a> interested in Sofware
               Engineering and Machine Learning, with a keen interest in Entrepreneurship and
               Startups.
             </p>
 
-            <p>
+            {/* <p>
               My personal goal:{' '}
               <i>
                 To relentlessly pursue knowledge, live each day as if it were my last, and leave no
@@ -168,20 +168,19 @@ const About = () => {
                 leveraging entrepreneurship, software engineering, and machine learning to solve
                 complex issues.
               </i>
+            </p> */}
+
+            <p>
+              Through my university in live in a different tech hub every semester including:{' '}
+              <i>San Francisco, Seoul, Hyderabad, Berlin, Buenos Aires, London and Taipei</i>
             </p>
 
             <p>
-              I also love dancing, playing the guitar, <i>all</i> sports, Dostoyevsky, Tolkien,
-              looking at watches I can't afford and travelling! Luckily, with my university I get to
-              live in a different city every semester including:{' '}
-              <i>San Francisco, Seoul, Hyderabad, Berlin, Buenos Aires, London and Taipei</i>. The
-              most mesmering place I've ever visited is <i>Manali in the Himalayas.</i>
+              Love <i>all</i> sports, playing the guitar, dancing, reading Dostoyevsky & Tolkien,
+              looking at watches I can't afford and travelling! Currently in Buenos Aires learning
+              Tango!
             </p>
-
-            <p>
-              When I am not doing something from above, I usually work with the following
-              technologies:
-            </p>
+            <p>These are the technologies I've been working with recently:</p>
           </div>
 
           <ul className="skills-list">

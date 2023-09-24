@@ -71,7 +71,7 @@ const StyledTabButton = styled.button`
   display: flex;
   align-items: center;
   width: 100%;
-  height: var(--tab-height);
+  min-height: var(--tab-height); /* Add min-height property */
   padding: 0 20px 2px;
   border-left: 2px solid var(--lightest-navy);
   background-color: transparent;
@@ -81,8 +81,10 @@ const StyledTabButton = styled.button`
   text-align: left;
   white-space: nowrap;
 
+  /* Add word-wrap property for smaller screens */
   @media (max-width: 768px) {
     padding: 0 15px 2px;
+    white-space: normal; /* This will break the text into multiple lines if necessary */
   }
   @media (max-width: 600px) {
     ${({ theme }) => theme.mixins.flexCenter};

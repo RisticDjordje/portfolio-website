@@ -81,8 +81,10 @@ const StyledTabButton = styled.button`
   text-align: left;
   white-space: nowrap;
 
+  /* Add word-wrap property for smaller screens */
   @media (max-width: 768px) {
     padding: 0 15px 2px;
+    white-space: normal; /* This will break the text into multiple lines if necessary */
   }
   @media (max-width: 600px) {
     ${({ theme }) => theme.mixins.flexCenter};
