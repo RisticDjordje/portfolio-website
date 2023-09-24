@@ -3,7 +3,7 @@ date: '2022-05-01'
 title: 'Business Development Intern'
 company: 'Enolink'
 location: 'Seoul, South Korea'
-range: 'May 2022 & Aug 2022'
+range: 'May 2022 - Aug 2022'
 url: 'https://www.enolink.com/'
 ---
 

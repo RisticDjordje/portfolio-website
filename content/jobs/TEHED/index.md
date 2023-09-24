@@ -3,7 +3,7 @@ date: '2019-04-01'
 title: 'Founder'
 company: 'TEHED'
 location: 'Banja Luka, Bosnia and Herzegovina'
-range: 'Feb 2019 & Aug 2021'
+range: 'Feb 2019 - Aug 2021'
 url: 'https://tehed.org'
 ---
 

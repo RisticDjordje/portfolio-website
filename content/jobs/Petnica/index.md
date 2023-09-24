@@ -3,7 +3,7 @@ date: '2018-09-01'
 title: 'Research Intern'
 company: 'Petnica Science Center'
 location: 'Banja Luka, Bosnia and Herzegovina'
-range: 'Sep 2018 & Jan 2021'
+range: 'Sep 2018 - Jan 2021'
 url: 'http://petnica.rs/petnica-science-center/'
 ---
 
