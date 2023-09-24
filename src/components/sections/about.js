@@ -81,8 +81,8 @@ const StyledPic = styled.div`
     .img {
       position: relative;
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1);
+      //mix-blend-mode: multiply;
+      //filter: grayscale(100%) contrast(1);
       transition: var(--transition);
     }
 
@@ -176,9 +176,8 @@ const About = () => {
             </p>
 
             <p>
-              Love <i>all</i> sports, playing the guitar, dancing, reading Dostoyevsky & Tolkien,
-              looking at watches I can't afford and travelling! Currently in Buenos Aires learning
-              Tango!
+              Love <i>all</i> sports, playing the guitar, dancing, Dostoyevsky, Tolkien, looking at
+              watches I can't afford and travelling! Currently in Buenos Aires learning Tango.
             </p>
             <p>These are the technologies I've been working with recently:</p>
           </div>
