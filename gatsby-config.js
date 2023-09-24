@@ -4,10 +4,10 @@ module.exports = {
   siteMetadata: {
     title: 'Djordje Ristic',
     description:
-      'Djordje Ristic is a an entrepreneur, software engineer, machine learning engineer, and a problem-solver.',
+      'Djordje Ristic is a an entrepreneur, software engineer, machine learning engineer who enjoys solving difficult problems.',
     siteUrl: 'https://djordjeristic.com', // No trailing slash allowed!
-    image: '/me.jpg', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@itsdjordje',
+    image: '/static/og.png', // Path to your image you placed in the 'static' folder
+    twitterUsername: '',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
