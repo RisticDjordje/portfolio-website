@@ -6,7 +6,7 @@ module.exports = {
     description:
       'Djordje Ristic is a an entrepreneur, software engineer, machine learning engineer who enjoys solving difficult problems.',
     siteUrl: 'https://djordjeristic.com', // No trailing slash allowed!
-    image: '/static/og.png', // Path to your image you placed in the 'static' folder
+    image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '',
   },
   plugins: [
