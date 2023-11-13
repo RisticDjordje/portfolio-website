@@ -1,5 +1,5 @@
 module.exports = {
-  email: 'rist.djordje@gmail.com',
+  email: 'rist.djordje<at>gmail.com',
 
   socialMedia: [
     {
@@ -18,10 +18,6 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/djordjeristic/',
     },
-    // {
-    //   name: 'Codepen',
-    //   url: 'https://codepen.io/bchiang7',
-    // },
   ],
 
   navLinks: [

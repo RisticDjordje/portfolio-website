@@ -65,8 +65,8 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        Leveraging software engineering, machine learning and entrepreneurship to solve interesting
-        problems. Currently building{' '}
+        Leveraging software engineering, ML & entrepreneurship to solve complex problems. Currently
+        building{' '}
         <a href="https://resumatex.com/" target="_blank" rel="noreferrer">
           ResuMateX
         </a>

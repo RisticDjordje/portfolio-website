@@ -59,10 +59,7 @@ const Contact = () => {
 
       <h2 className="title">Get In Touch</h2>
 
-      <p>
-        Currently seeking summer 2024 internship opprtunities in Machine Learning or Sofware
-        Engineering. Always open to new ideas and people!
-      </p>
+      <p>Always open to new ideas, projects and meeting new people!</p>
 
       <a className="email-link" href={`mailto:${email}`}>
         Say Hello

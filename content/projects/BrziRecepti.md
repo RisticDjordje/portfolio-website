@@ -1,6 +1,7 @@
 ---
 date: '2018-08-27'
 title: 'FastRecipes'
+github: 'https://github.com/RisticDjordje/brzi-recepti'
 tech:
   - Python
   - Django

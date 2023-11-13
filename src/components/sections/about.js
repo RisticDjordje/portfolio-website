@@ -171,13 +171,13 @@ const About = () => {
             </p> */}
 
             <p>
-              Through my university in live in a different tech hub every semester including:{' '}
-              <i>San Francisco, Seoul, Hyderabad, Berlin, Buenos Aires, London and Taipei</i>
+              Through my university I live in a different tech hub every semester including:{' '}
+              <i>San Francisco, Seoul, Hyderabad, Berlin, Buenos Aires, London and Taipei.</i>
             </p>
 
             <p>
-              Love <i>all</i> sports, playing the guitar, dancing, Dostoyevsky, Tolkien, looking at
-              watches I can't afford and travelling! Currently in Buenos Aires learning Tango.
+              Love <i>all</i> sports, reading, playing the guitar, travelling and looking at watches
+              I can't afford!
             </p>
             <p>These are the technologies I've been working with recently:</p>
           </div>
