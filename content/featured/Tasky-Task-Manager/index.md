@@ -2,7 +2,7 @@
 date: '4'
 title: 'Tasky: Task Manager Webapp'
 cover: './demo.png'
-github: 'https://github.com/RisticDjordje/personalized-autocomplete-next-word-prediction-task'
+github: 'https://github.com/RisticDjordje/tasky-task-manager-webapp'
 tech:
   - Python
   - Flask
