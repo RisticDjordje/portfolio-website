@@ -1,11 +1,11 @@
 ---
 date: '2023-11-26'
 title: 'Personalized Autocomplete: exploring next word prediction'
-external: 'https://github.com/RisticDjordje/personalized-autocomplete-next-word-prediction-task'
+github: 'https://github.com/RisticDjordje/personalized-autocomplete-next-word-prediction-task'
 tech:
   - Python
   - PyTorch
-  - TensorFlor
+  - TensorFlow
   - Keras
   - Jupyter
 company: 'ResuMateX'
