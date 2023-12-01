@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { Layout, Hero, About, Jobs, Featured, Projects, Contact } from '@components';
 import { Education } from '../components';
+import { Analytics } from '@vercel/analytics/react';
 
 const StyledMainContainer = styled.main`
   counter-reset: section;
@@ -10,15 +11,17 @@ const StyledMainContainer = styled.main`
 
 const IndexPage = ({ location }) => (
   <Layout location={location}>
-    <StyledMainContainer className="fillHeight">
-      <Hero />
-      <About />
-      <Jobs />
-      <Education />
-      <Featured />
-      <Projects />
-      <Contact />
-    </StyledMainContainer>
+    <Analytics>
+      <StyledMainContainer className="fillHeight">
+        <Hero />
+        <About />
+        <Jobs />
+        <Education />
+        <Featured />
+        <Projects />
+        <Contact />
+      </StyledMainContainer>
+    </Analytics>
   </Layout>
 );
 
