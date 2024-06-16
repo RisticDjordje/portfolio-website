@@ -65,13 +65,11 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        Leveraging software engineering, ML & entrepreneurship to solve complex problems. Currently
-        building{' '}
-        <a href="https://resumatex.com/" target="_blank" rel="noreferrer">
-          ResuMateX
+        Currently changing the way people learn languages. Developing{' '}
+        <a href="https://polyato.com/" target="_blank" rel="noreferrer">
+          Polyato
         </a>
-        , an AI-powered resume assistant that customizes your resume to job descriptions, in one
-        click.
+        , a personalized AI-powered language learning tutor.
       </p>
     </>
   );

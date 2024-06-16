@@ -176,8 +176,8 @@ const About = () => {
             </p>
 
             <p>
-              Love <i>all</i> sports, reading, playing the guitar, travelling and looking at watches
-              I can't afford!
+              Love <i>all</i> sports, reading, playing the guitar, travelling and collecting
+              watches.
             </p>
             <p>These are the technologies I've been working with recently:</p>
           </div>
