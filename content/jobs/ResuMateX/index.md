@@ -3,7 +3,7 @@ date: '2023-01-21'
 title: 'Co-Founder'
 company: 'ResuMateX'
 location: 'San Francisco, CA'
-range: 'Jan 2023 - Present'
+range: 'Jan 2023 - Aug 2023'
 url: 'http://www.resumatex.com/'
 ---
 
