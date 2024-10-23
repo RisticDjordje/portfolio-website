@@ -1,5 +1,5 @@
 ---
-date: '2024-7-01'
+date: '2024-07-01'
 title: 'Software Engineering Intern'
 company: 'Netflix'
 location: 'Los Gatos, San Francisco Bay Area, California'
