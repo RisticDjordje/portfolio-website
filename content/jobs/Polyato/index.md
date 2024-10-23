@@ -1,9 +1,9 @@
 ---
-date: '2024-03-03'
+date: '2024-09-09'
 title: 'Founder'
 company: 'Polyato'
 location: 'San Francisco, USA'
-range: 'May 2022 - Present'
+range: 'May 2024 - Present'
 url: 'https://polyato.com/'
 ---
 
