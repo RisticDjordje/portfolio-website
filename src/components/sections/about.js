@@ -125,20 +125,20 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = [
-    'Python',
-    'JavaScript',
-    'SQL',
-    'React',
-    'Node.js',
-    'Django',
-    'Kotlin',
-    'PyTorch',
-    'TensorFlow',
-    'Keras',
-    'NumPy',
-    'Pandas',
-  ];
+  // const skills = [
+  //   'Python',
+  //   'JavaScript',
+  //   'SQL',
+  //   'React',
+  //   'Node.js',
+  //   'Django',
+  //   'Kotlin',
+  //   'PyTorch',
+  //   'TensorFlow',
+  //   'Keras',
+  //   'NumPy',
+  //   'Pandas',
+  // ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -179,12 +179,12 @@ const About = () => {
               Love <i>all</i> sports, reading, playing the guitar, travelling and collecting
               watches.
             </p>
-            <p>These are the technologies I've been working with recently:</p>
+            {/* <p>These are the technologies I've been working with recently:</p> */}
           </div>
 
-          <ul className="skills-list">
+          {/* <ul className="skills-list">
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
-          </ul>
+          </ul> */}
         </StyledText>
 
         <StyledPic>

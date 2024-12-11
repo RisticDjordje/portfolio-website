@@ -7,6 +7,7 @@ tech:
   - Jupyter Notebook
 company: 'Minerva University'
 showInProjects: true
+ai: false
 ---
 
 For my Artificial Intelligence class at Minerva University I developed a solver for the N-puzzle (8 puzzle, 15 puzzle, etc.) that uses the A\* algorithm with multiple heuristics: <i>number of misplaced tiles, manhattan distance and static additive disjoint pattern databases.</i>

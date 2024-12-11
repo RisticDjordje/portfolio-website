@@ -15,4 +15,5 @@ tech:
   - TF
 company: 'ResuMateX'
 showInProjects: false
+ai: true
 ---

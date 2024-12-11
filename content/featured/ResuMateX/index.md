@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '2'
 title: 'ResuMateX'
 cover: './demo.png'
 external: 'http://www.resumatex.com/'

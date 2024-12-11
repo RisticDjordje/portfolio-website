@@ -8,6 +8,7 @@ tech:
   - Python
 company: 'Minerva University'
 showInProjects: true
+ai: false
 ---
 
 Health and Fitness Tracking App is a comprehensive solution designed to help users monitor and achieve their health and fitness goals. This application seamlessly integrates various aspects of health management, including sleep tracking, water intake, workout logging, nutrition monitoring, and personalized fitness recommendations.

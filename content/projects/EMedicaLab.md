@@ -1,5 +1,5 @@
 ---
-date: '2023-12-27'
+date: '2023-11-27'
 title: 'EMedicaLab'
 tech:
   - JavaScript
@@ -8,6 +8,7 @@ tech:
   - Boostrap
 company: 'EMedicaLab'
 showInProjects: true
+ai: false
 ---
 
 Developed an app that returns potential diseases based on the user’s symptoms and blood & urine sample results. Provides users with the potential causes, mitigation techniques and connects them with professionals.

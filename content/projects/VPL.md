@@ -9,6 +9,7 @@ tech:
   - SQL
 company: 'ITLab'
 showInProjects: true
+ai: true
 ---
 
 Collaborated to build a simple mobile app that scans any ID, then checks and verifies the person from the database. Developed under the mentorship of a Computer Science PHD in a company ITLab.

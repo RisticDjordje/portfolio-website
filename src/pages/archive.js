@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
@@ -10,10 +10,10 @@ import { Icon } from '@components/icons';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledTableContainer = styled.div`
-  margin: 100px -20px;
+  margin: 50px -20px;
 
   @media (max-width: 768px) {
-    margin: 50px -10px;
+    margin: 30px -10px;
   }
 
   table {
@@ -40,14 +40,12 @@ const StyledTableContainer = styled.div`
 
       &:first-child {
         padding-left: 20px;
-
         @media (max-width: 768px) {
           padding-left: 10px;
         }
       }
       &:last-child {
         padding-right: 20px;
-
         @media (max-width: 768px) {
           padding-right: 10px;
         }
@@ -61,7 +59,6 @@ const StyledTableContainer = styled.div`
 
     tr {
       cursor: default;
-
       td:first-child {
         border-top-left-radius: var(--border-radius);
         border-bottom-left-radius: var(--border-radius);
@@ -75,7 +72,6 @@ const StyledTableContainer = styled.div`
     td {
       &.year {
         padding-right: 20px;
-
         @media (max-width: 768px) {
           padding-right: 10px;
           font-size: var(--fz-sm);
@@ -110,22 +106,35 @@ const StyledTableContainer = styled.div`
 
       &.links {
         min-width: 100px;
-
         div {
           display: flex;
           align-items: center;
-
           a {
             ${({ theme }) => theme.mixins.flexCenter};
             flex-shrink: 0;
           }
-
           a + a {
             margin-left: 10px;
           }
         }
       }
     }
+  }
+`;
+
+const StyledToggle = styled.button`
+  display: inline-block;
+  margin-top: 20px;
+  background: none;
+  padding: 10px 15px;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-size: var(--fz-sm);
+  ${({ theme }) => theme.mixins.smallButton};
+
+  &:hover,
+  &:focus {
+    background: var(--light-navy);
   }
 `;
 
@@ -136,6 +145,8 @@ const ArchivePage = ({ location, data }) => {
   const revealProjects = useRef([]);
   const prefersReducedMotion = usePrefersReducedMotion();
 
+  const [showAIOnly, setShowAIOnly] = useState(false);
+
   useEffect(() => {
     if (prefersReducedMotion) {
       return;
@@ -144,7 +155,11 @@ const ArchivePage = ({ location, data }) => {
     sr.reveal(revealTitle.current, srConfig());
     sr.reveal(revealTable.current, srConfig(200, 0));
     revealProjects.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 10)));
-  }, []);
+  }, [prefersReducedMotion]);
+
+  const filteredProjects = showAIOnly
+    ? projects.filter(({ node }) => node.frontmatter.ai === true)
+    : projects;
 
   return (
     <Layout location={location}>
@@ -154,6 +169,9 @@ const ArchivePage = ({ location, data }) => {
         <header ref={revealTitle}>
           <h1 className="big-heading">Archive</h1>
           <p className="subtitle">A big list of things I’ve worked on (probably missed some)</p>
+          <StyledToggle onClick={() => setShowAIOnly(!showAIOnly)}>
+            {showAIOnly ? 'Show All Projects' : 'Show Only AI Projects'}
+          </StyledToggle>
         </header>
 
         <StyledTableContainer ref={revealTable}>
@@ -162,34 +180,18 @@ const ArchivePage = ({ location, data }) => {
               <tr>
                 <th>Year</th>
                 <th>Title</th>
-                {/* <th className="hide-on-mobile">Made at</th> */}
                 <th className="hide-on-mobile">Built with</th>
                 <th>Link</th>
               </tr>
             </thead>
             <tbody>
-              {projects.length > 0 &&
-                projects.map(({ node }, i) => {
-                  const {
-                    date,
-                    github,
-                    external,
-                    ios,
-                    android,
-                    title,
-                    tech,
-                    // company,
-                  } = node.frontmatter;
+              {filteredProjects.length > 0 &&
+                filteredProjects.map(({ node }, i) => {
+                  const { date, github, external, ios, android, title, tech } = node.frontmatter;
                   return (
                     <tr key={i} ref={el => (revealProjects.current[i] = el)}>
                       <td className="overline year">{`${new Date(date).getFullYear()}`}</td>
-
                       <td className="title">{title}</td>
-
-                      {/* <td className="company hide-on-mobile">
-                        {company ? <span>{company}</span> : <span>—</span>}
-                      </td> */}
-
                       <td className="tech hide-on-mobile">
                         {tech?.length > 0 &&
                           tech.map((item, i) => (
@@ -200,7 +202,6 @@ const ArchivePage = ({ location, data }) => {
                             </span>
                           ))}
                       </td>
-
                       <td className="links">
                         <div>
                           {external && (
@@ -235,6 +236,7 @@ const ArchivePage = ({ location, data }) => {
     </Layout>
   );
 };
+
 ArchivePage.propTypes = {
   location: PropTypes.object.isRequired,
   data: PropTypes.object.isRequired,
@@ -259,6 +261,7 @@ export const pageQuery = graphql`
             ios
             android
             company
+            ai
           }
           html
         }

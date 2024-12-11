@@ -11,4 +11,5 @@ tech:
   - Java
 company: ''
 showInProjects: false
+ai: false
 ---

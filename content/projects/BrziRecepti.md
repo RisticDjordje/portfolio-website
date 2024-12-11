@@ -9,7 +9,8 @@ tech:
   - SQL
   - HTML + CSS
 company: 'FastRecipes'
-showInProjects: true
+showInProjects: false
+ai: false
 ---
 
 Developed an app that gives users personalized recipes based on the ingredients they have and their preferences.

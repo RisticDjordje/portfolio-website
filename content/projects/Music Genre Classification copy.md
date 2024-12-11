@@ -10,6 +10,7 @@ tech:
   - Scikit-learn
 company: 'PFE'
 showInProjects: false
+ai: true
 ---
 
 Detecting music genres using deep learning.

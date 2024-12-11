@@ -7,6 +7,7 @@ tech:
   - Numpy
 company: 'Petnica Science Center'
 showInProjects: false
+ai: false
 ---
 
 Script to calculate Signla-to-Noise ratio.

@@ -8,6 +8,7 @@ tech:
   - Pandas
 company: 'Minerva University'
 showInProjects: false
+ai: true
 ---
 
 Jupyter Notebook that uses classification trees to classify Covid-19 patients based on their symptoms and health results. This was one of my projects for my Data Science class at Minerva University.

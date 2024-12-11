@@ -6,6 +6,7 @@ tech:
   - Python
 company: 'Petnica Science Center'
 showInProjects: false
+ai: false
 ---
 
 Program that models scale-free networks using Barabasi-Albert model and Preferrential Attachment. This was my project as a Research Intern at [Petnica Science Center](https://www.petnica.rs/).

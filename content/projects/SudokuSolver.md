@@ -8,6 +8,7 @@ tech:
   - Pillow
 company: 'PSIML'
 showInProjects: false
+ai: true
 ---
 
 Reading sudoku from an image and solving it using backtracking. This was my solution to the sudoku problem proposed in the [PSIML](https://psiml.petlja.org/) 8 course.

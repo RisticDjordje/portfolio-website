@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '4'
 title: 'EZmoney: Android live betting app + scalable server'
 cover: './demo.png'
 github: 'https://github.com/RisticDjordje/betting-bot-client-server/tree/master'

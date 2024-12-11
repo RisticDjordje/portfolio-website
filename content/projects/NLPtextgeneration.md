@@ -10,6 +10,7 @@ tech:
   - Scikit-learn
 company: 'PSIML'
 showInProjects: false
+ai: true
 ---
 
 Exploratory project for NLP text generation using LSTMs and MLP. Done during the [PSIML](https://psiml.petlja.org/) bootcamp.

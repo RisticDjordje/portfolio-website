@@ -10,4 +10,5 @@ tech:
   - Jupyter
 company: 'ResuMateX'
 showInProjects: false
+ai: true
 ---

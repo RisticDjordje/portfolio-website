@@ -1,5 +1,5 @@
 ---
-date: '2023-04-20'
+date: '2023-11-29'
 title: 'AI Chess Opponent Engine'
 github: 'https://github.com/RisticDjordje/ai-chess-engine/blob/main/ai_chess_engine.ipynb'
 tech:
@@ -7,6 +7,7 @@ tech:
   - Jupyter Notebook
 company: 'Minerva University'
 showInProjects: true
+ai: true
 ---
 
 For my AI class at Minerva University, I developed an AI chess opponent that could play reasonably well against humans and that I would enjoy playing against (~1900 ELO)
